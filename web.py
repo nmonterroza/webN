@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 # Cargar los datos desde un archivo de Excel
-data = pd.read_excel("C:/Users/User/Downloads/cargarap.xlsx")
+data = pd.read_excel("https://github.com/nmonterroza/webN/blob/main/cargarap.xlsx")
 
 # Mostrar las columnas disponibles en el DataFrame
 print(data.columns)
